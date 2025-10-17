@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Destinations</title>
+<link rel="stylesheet" href="css-assests/style.css">
+</head>
+
+<body>
+
+<h1>Explore Our Top Travel Destinations</h1>
+
+<!-- Accordion Buttons -->
+<button class="accordion">🌏 Paris, France</button>
+<div class="panel">
+  <p>Known as the City of Light, Paris is famous for its art, fashion, gastronomy, and culture. Iconic landmarks include the Eiffel Tower, the Louvre, and Notre-Dame Cathedral.</p>
+  <div class="thumbnails">
+    <img src="_images/image.png" alt="Eiffel Tower" data-caption="The Eiffel Tower at sunset, Paris.">
+    <img src="_images/image copy.png" alt="Louvre Museum" data-caption="The Louvre Museum, home to the Mona Lisa.">
+  </div>
+</div>
+
+<button class="accordion">🗼Tokyo, Japan</button>
+<div class="panel">
+  <p>Tokyo blends tradition and futurism, offering ancient temples, neon-lit skyscrapers, and world-class cuisine. Visit Shibuya Crossing, Tokyo Tower, and Asakusa Temple.</p>
+  <div class="thumbnails">
+    <img src="_images/image copy 2.png" alt="Tokyo Tower" data-caption="Tokyo Tower at night.">
+    <img src="_images/image copy 3.png" alt="Senso-ji Temple" data-caption="Senso-ji Temple, Asakusa.">
+  </div>
+</div>
+
+<button class="accordion">🗻 Cape Town, South Africa</button>
+<div class="panel">
+  <p>Cape Town is a coastal gem known for Table Mountain, stunning beaches, and vibrant culture. It’s a perfect destination for hiking, surfing, and exploring nature.</p>
+  <div class="thumbnails">
+    <img src="_images/image copy 4.png" alt="Table Mountain" data-caption="Table Mountain overlooking Cape Town.">
+    <img src="_images/image copy 5.png" alt="Cape of Good Hope" data-caption="Cape of Good Hope, South Africa.">
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <div class="lightbox-content">
+    <img id="lightbox-img" src="" alt="">
+    <div id="caption" class="caption"></div>
+  </div>
+</div>
+
+<script src="js-assests/script.js"></script>
+
+</body>
+</html>
